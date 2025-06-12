@@ -25,7 +25,7 @@ export default [
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
     {
-        /** add custom rules here */
+    /** add custom rules here */
         rules: {
             // 'no-useless-concat': ['error'], // without autofix, trying to implement in eslint-plugin-unicorn or implement a plugin to enhence it
             'prefer-template': ['warn'],
@@ -49,7 +49,7 @@ export default [
     // stylistic config
     stylistic.configs.recommended,
     {
-        /** add custom stylistic rules here */
+    /** add custom stylistic rules here */
         rules: {
             '@stylistic/semi': ['error', 'always'],
             '@stylistic/indent': ['error', 4],

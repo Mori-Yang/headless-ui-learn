@@ -22,8 +22,8 @@
         "forceConsistentCasingInFileNames": true
     },
     "include": [
-        "./src/**/*",
-        "./vite.config.ts"
+        "./playground/**/*",
+        "./components/**/*",
     ],
     "exclude": [
         "node_modules",
